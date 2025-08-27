@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from '@/styles/Header.module.css'
+import styles from '@/styles/Navigation.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Header() {
+export default function Navigation() {
   return (
     <div className={styles.navigation}>
         <div className={styles.navigationGroup}>

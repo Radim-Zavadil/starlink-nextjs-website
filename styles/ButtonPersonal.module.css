@@ -1,0 +1,54 @@
+.typeButton {
+    width: 540px;
+    height: 240px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.description {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.buttonsGroup {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+}
+
+.orderButton {
+    font-size: 10px;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+
+.findOutButton {
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
