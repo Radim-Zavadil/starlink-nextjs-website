@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/styles/page.module.css";
+import { ChevronRight } from "lucide-react";
 
 //components
 import Navigation from "@/components/Navigation";
@@ -24,7 +25,6 @@ export default function Home() {
 
         />
 
-        
 
         <div className={styles.content}>
 
@@ -33,7 +33,7 @@ export default function Home() {
             <p className={styles.description}>Connect from home or on the go</p>
             <p className={styles.description}>See <span style={{fontWeight: "700"}}>speeds</span> in your country</p>
           </div>
-          
+    
 
           <div className={styles.buttonsGroup}>
             <ButtonPersonal 
@@ -49,6 +49,20 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className={styles.sectionTwo}>
+        <div className={styles.content}>
+          <p className={styles.titleSmaller}>STARLINK FOR COMPANIES AND POWERFUL USERS</p>
+          <div style={{display: "flex", justifyContent: "center", alignItems: "center" }}>
+            <p className={styles.sectionTwoDescription}>Reliable high-speed internet designed to keep businesses connected.</p>
+            <div className={styles.buttonSectionTwo}>
+              <p className={styles.buttonSectionTwoText}>Find out more</p>
+              <ChevronRight size={19}/>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Footer />
       
     </div>
