@@ -13,7 +13,7 @@ export default function Navigation() {
         </div>
         <div className={styles.navigationGroup}>
             <Link href='/' className={`${styles.link} ${styles.active}`}>Personal</Link>
-            <Link href='/business' className={styles.link}>Business</Link>
+            <Link href='/business' className={styles.link}>Corporate</Link>
             <Image 
                 src={"/menu.png"}
                 alt='Menu Icon'
